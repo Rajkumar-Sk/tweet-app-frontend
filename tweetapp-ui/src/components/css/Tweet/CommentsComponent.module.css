@@ -1,0 +1,26 @@
+.commentsCard {
+  width: 370px;
+  margin: auto;
+  border: 1px solid #666;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+/* .dashboardTweetCard {
+    width: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+  } */
+.tweetCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginIdText,
+.postedTimeText {
+  color: #00bcd4;
+  font-weight: 700;
+}

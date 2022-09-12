@@ -1,0 +1,48 @@
+.card {
+  width: 450px;
+  padding: 10px;
+  /* width: 18rem; */
+}
+
+body {
+  background-color: #00bcd4;
+}
+
+.AllUsersContainer {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  position: relative;
+  top: 290px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cardAlign {
+  text-align: justify;
+  align-items: center;
+}
+.cardBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userDetails {
+  border: 1px solid #666;
+  width: 300px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.searchUserText {
+  width: 450px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 20px 40px;
+  border-radius: 5px;
+}

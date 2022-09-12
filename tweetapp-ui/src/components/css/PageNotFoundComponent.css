@@ -1,0 +1,22 @@
+.App {
+  background-color: #666;
+}
+
+.PageNotFoundComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.footer-bottom {
+  color: aliceblue;
+  position: relative;
+  left: 15px;
+  top: 350px;
+}
