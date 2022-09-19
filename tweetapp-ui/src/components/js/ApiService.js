@@ -1,7 +1,6 @@
 import axios from "axios";
 import jwt_decode from "jwt-decode";
-//13.233.167.0:9090
-const TWEET_APP_ROOT_URI = "http://localhost:9090/api/v1.0/tweets";
+const TWEET_APP_ROOT_URI = "http://13.233.167.0:9090/api/v1.0/tweets";
 
 export function loginUser(username, password) {
   return axios.post(TWEET_APP_ROOT_URI + "/login", {
