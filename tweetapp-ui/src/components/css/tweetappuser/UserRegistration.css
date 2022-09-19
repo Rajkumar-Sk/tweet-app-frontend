@@ -1,0 +1,107 @@
+.App {
+  background-color: #00bcd4;
+}
+
+.RegisterComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+  /* margin: 2rem auto; */
+}
+
+.auth-form {
+  width: 500px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 8rem auto 3rem auto;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+/* label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+} */
+
+.invalid {
+  color: indianred;
+}
+
+.fp,
+.ca {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #107bf7;
+  margin-top: 10px;
+}
+
+.fp:hover,
+.ca:hover {
+  color: #0362cf;
+}
+
+.label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+  text-align: start;
+}
+.brand {
+  text-decoration: none;
+  color: #00bcd4;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 40px;
+}
+.invalidCredentials,
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.input {
+  border: 1px solid red;
+}
+
+.signUpText {
+  font-size: 14px;
+}
+
+.liLink {
+  display: flex;
+  justify-content: center;
+}
+.loginLinkReg {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #05899b;
+  margin: 5px;
+  cursor: pointer;
+}
+.loginText {
+  cursor: default;
+  font-size: 14px;
+}
+.loginLinkReg:hover {
+  color: #00bcd4;
+}

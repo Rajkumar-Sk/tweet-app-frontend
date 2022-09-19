@@ -1,0 +1,56 @@
+.commentsCard {
+  width: 350px;
+  margin: 10px auto;
+  border: 1px solid #666;
+  padding: 10px;
+  border-radius: 3px;
+}
+.tweetCommentsContainer {
+  margin-top: 8rem;
+}
+.dashboardTweetCard {
+  width: 450px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+.tweetCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginIdText,
+.postedTimeText {
+  color: #00bcd4;
+  font-weight: 700;
+}
+.commentsTweetCard {
+  width: 450px;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+.commentsText {
+  color: #00bcd4;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.replyBtn1 {
+  border: solid 1px #05899b;
+  color: #05899b;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 25px;
+}
+
+.replyBtn1:hover {
+  background-color: #00bcd4;
+  color: white;
+  border: solid 1px #00bcd4;
+}

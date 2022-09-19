@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
-.dashboardTweetCard {
+.homeTweetCard {
   width: 450px;
   margin: 0 auto;
   background-color: #fff;
@@ -23,10 +23,10 @@ body {
 }
 
 /* #logoutbutton {
-  position: absolute;
-  left: 700px;
-  top: 8px;
-} */
+    position: absolute;
+    left: 700px;
+    top: 8px;
+  } */
 
 #footer {
   position: absolute;

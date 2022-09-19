@@ -1,0 +1,45 @@
+.myTweetsContainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 8rem;
+}
+
+.myTweetsCard {
+  width: 450px;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #00bcd4;
+}
+
+#navigation {
+  height: 15%;
+}
+
+#logoutbutton {
+  position: absolute;
+  left: 700px;
+  top: 15px;
+  margin-top: 7px;
+}
+
+#nav-links {
+  position: absolute;
+  left: 230px;
+  margin-top: 7px;
+}
+
+.tweetsText {
+  width: 450px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 20px 40px;
+  border-radius: 5px;
+}

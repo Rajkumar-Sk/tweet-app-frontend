@@ -1,0 +1,89 @@
+.App {
+  background-color: #00bcd4;
+}
+
+.LoginComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  margin: 3rem auto;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.invalidCredentials,
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.input {
+  border: 1px solid red;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createAccountText,
+.forgotPasswordText {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #05889b;
+  margin-top: 10px;
+}
+
+.createAccountText:hover,
+.forgotPasswordText:hover {
+  color: #00bcd4;
+}
+
+.usernameLabel,
+.passwordLabel {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+  text-align: start;
+}
+.brand {
+  text-decoration: none;
+  color: #00bcd4;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 40px;
+}
+.brand:hover {
+  color: #05899b;
+}
